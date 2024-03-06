@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:test_drive/sections/ButtonSection.dart';
+import 'package:test_drive/sections/TitleSection.dart';
 
 void main() => runApp(const MyApp());
 
@@ -14,8 +16,16 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text(appTitle),
         ),
-        body: const Center(
-          child: Text('Hello World'),
+        body: const SingleChildScrollView(
+          child: Column(
+            children: [
+              TitleSection(
+                name: 'Oeschinen Lake Campground', 
+                location: 'Kandersteg, Switzerland',
+              ),
+              ButtonSection()
+            ],
+          )
         ),
       ),
     );
