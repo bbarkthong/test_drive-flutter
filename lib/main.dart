@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:test_drive/sections/ButtonSection.dart';
-import 'package:test_drive/sections/ImageSection.dart';
-import 'package:test_drive/sections/TextSection.dart';
-import 'package:test_drive/sections/TitleSection.dart';
+import 'package:test_drive/sections/button_section.dart';
+import 'package:test_drive/sections/image_section.dart';
+import 'package:test_drive/sections/text_section.dart';
+import 'package:test_drive/sections/title_section.dart';
 
 void main() => runApp(const MyApp());
 
